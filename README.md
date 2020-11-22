@@ -4,6 +4,8 @@
 * Add this in settings.py
 ```python
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#or in case of error use:
+STATIC_ROOT = '/statics/' 
 ```
 
 * [Make a Heroku account](https://signup.heroku.com/)
