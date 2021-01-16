@@ -1,4 +1,4 @@
-# Django-heroku-setup
+#         Django-heroku-setup
 
 
 * Add this in settings.py
@@ -7,6 +7,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #or in case of error use:
 STATIC_ROOT = '/statics/' 
 ```
+#           HEROKU CLI
 
 * [Make a Heroku account](https://signup.heroku.com/)
 
@@ -39,3 +40,4 @@ git add .
 git commit -m "edit"
 git push heroku master
 ```
+
